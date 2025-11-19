@@ -9,7 +9,8 @@
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --bg-image: url('../img/stardust-bg-desktop.jpg'); /* Cor de fundo (cinza escuro) */
+    --bg-color: rgba(32, 33, 36, 0.5); /* Cor de fundo alternativa com 80% de opacidade */
 }
 
 /* Estilos do Body */
@@ -18,7 +19,7 @@ body {
     margin: 0; /* Remove a margem padrão do body */
 
     /* Cores */
-    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
+    background-image: var(--bg-image) ;
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
 
     /* Fonte */
@@ -34,7 +35,7 @@ header {
     top: 0; /* Posição do topo quando sticky */
     background: var(--bg-color); /* Cor de fundo do cabeçalho */
     z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+    border-bottom: 1px solid var(--bg-image); /* Adiciona uma borda inferior */
     gap: 1rem; /* Espaçamento entre os elementos flex */
 }
 
@@ -62,7 +63,7 @@ div input {
     border: 1px solid var(--tertiary-color); /* Define a borda */
 
     /* Cores */
-    background: var(--bg-color); /* Cor de fundo */
+    background: var(--bg-image); /* Cor de fundo */
     color: var(--secondary-color); /* Cor do texto digitado */
     
     /* Fonte */
@@ -90,7 +91,7 @@ div input:focus {
     outline: none; /* Remove a borda de foco padrão */
 
     /* Bordas */
-    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
+    border-color: var(--bg-image); /* Muda a cor da borda ao focar */
     box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
 }
 
@@ -102,7 +103,7 @@ div input:focus {
     /* Bordas */
     border-radius: 1rem; /* Arredonda as bordas */
     border: none; /* Remove a borda padrão */
-    border: 1px solid var(--bg-color); /* Adiciona uma borda */
+    border: 1px solid var(--bg-image); /* Adiciona uma borda */
 
     /* Fonte */
     cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
@@ -110,7 +111,7 @@ div input:focus {
     font-size: 1rem; /* Tamanho da fonte */
     white-space: nowrap; /* Impede a quebra de linha do texto */
     transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
+    background-color: var(--bg-image); /* Cor de fundo */
     color: var(--secondary-color); /* Cor do texto */
     font-family: inherit; /* Herda a família da fonte */
 }
@@ -119,7 +120,7 @@ div input:focus {
 #botao-busca:hover {
     /* Cores */
     background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
-    color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
+    color: var(--bg-image); /* Muda a cor do texto ao passar o mouse */
 
     /* Bordas */
     box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
@@ -158,7 +159,7 @@ main {
     /* Cores */
     color: var(--tertiary-color); /* Cor do texto */
     background-color: var(--bg-color); /* Cor de fundo */
-    
+
     /* Espaçamento */
     padding: 15px 20px; /* Espaçamento interno */
 }
