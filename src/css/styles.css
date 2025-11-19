@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Importa a fonte Space Mono do Google Fonts */
 
 /* Reset e Box-sizing */
 * {
@@ -6,11 +7,11 @@
 }
 
 :root {
-    --primary-color: #3C65B3; /* Cor primária (azul claro) */
+    --primary-color: #31238C; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
     --bg-image: url('../img/stardust-bg-desktop.jpg'); /* Cor de fundo (cinza escuro) */
-    --bg-color: rgba(32, 30, 89, 0.5); /* Cor de fundo alternativa com 80% de opacidade */
+    --bg-color: rgba(22, 24, 64, 0.5); /* Cor de fundo alternativa com 80% de opacidade */
 }
 
 /* Estilos do Body */
@@ -26,7 +27,7 @@ body {
     font-family: "Quicksand", sans-serif; /* Define a família da fonte */
 } 
 
-header {
+.header {
     padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
     display: flex; /* Habilita o layout flexbox */
     align-items: center; /* Alinha os itens verticalmente ao centro */
@@ -40,10 +41,11 @@ header {
 }
 
 /* Estilos do Título do Header */
-header span {
+.header span {
     /* Fonte */
     font-size: 1.5rem; /* Tamanho da fonte */
-    font-weight: 500; /* Peso da fonte (médio) */
+    font-weight: 600; /* Peso da fonte (médio) */
+    font-family: "Space Mono", monospace; /* Define a família da fonte;
 
     /* Reset */
     margin: 0; /* Remove a margem padrão */
@@ -63,7 +65,7 @@ div input {
     border: 1px solid var(--tertiary-color); /* Define a borda */
 
     /* Cores */
-    background: var(--bg-image); /* Cor de fundo */
+    background: var(--bg-color); /* Cor de fundo */
     color: var(--secondary-color); /* Cor do texto digitado */
     
     /* Fonte */
@@ -143,6 +145,26 @@ main {
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
     margin-top: 2rem; /* Margem no topo */
 }
+
+main header {
+    display: flex; /* Habilita o layout flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+main header h1 {
+    font-family: Quicksand, sans-serif; /* Define a família da fonte */
+    font-size: 2.5rem; /* Tamanho da fonte */
+}
+
+main header p {
+    font-family: Quicksand, sans-serif; /* Define a família da fonte */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    max-width: 600px; /* Largura máxima */
+    margin-top: 0.5rem; /* Margem superior */
+}
+
 
 /* Estilos do Footer */
 .footer {
