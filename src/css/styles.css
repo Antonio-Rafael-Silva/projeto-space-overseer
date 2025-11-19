@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+/* Reset e Box-sizing */
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
+    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
+    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
+    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+}
+
+/* Estilos do Body */
+body {
+    /* Reset */
+    margin: 0; /* Remove a margem padrão do body */
+
+    /* Cores */
+    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+
+    /* Fonte */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+} 
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+/* Estilos do Título do Header */
+header h1 {
+    /* Fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte (médio) */
+
+    /* Reset */
+    margin: 0; /* Remove a margem padrão */
+    
+    /* Outros */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+}
+
+/* Estilos da Div que contém o Input */
+div input {
+    /* Espaçamento */
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */
+    margin-right: .5rem; /* Margem à direita */
+
+    /* Bordas */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: 1px solid var(--tertiary-color); /* Define a borda */
+
+    /* Cores */
+    background: var(--bg-color); /* Cor de fundo */
+    color: var(--secondary-color); /* Cor do texto digitado */
+    
+    /* Fonte */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1.5rem; /* Tamanho da fonte */
+
+    /* Dimensões */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 30rem; /* Largura do input */
+}
+
+/* Estilos do Placeholder do Input */
+div input::placeholder {
+    /* Fonte */
+    font-size: 1.2rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+
+    /* Cores */
+    color: var(--tertiary-color); /* Cor do texto do placeholder */
+}
+
+/* Estilos do Input quando está em foco */
+div input:focus {
+    /* Reset */
+    outline: none; /* Remove a borda de foco padrão */
+
+    /* Bordas */
+    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+/* Estilos do Botão de Busca */
+#botao-busca {
+    /* Espaçamento */
+    padding: 1rem 2rem; /* Espaçamento interno */
+
+    /* Bordas */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: none; /* Remove a borda padrão */
+    border: 1px solid var(--bg-color); /* Adiciona uma borda */
+
+    /* Fonte */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    color: var(--secondary-color); /* Cor do texto */
+    font-family: inherit; /* Herda a família da fonte */
+}
+
+/* Estilos do Botão de Busca ao passar o mouse */
+#botao-busca:hover {
+    /* Cores */
+    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
+    color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
+
+    /* Bordas */
+    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
+}
+
+/* Estilos do Botão de Busca quando está ativo */
+#botao-busca:active {
+    /* Transformação */
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+}
+
+/* Estilos da Main */
+main {
+    /* Overflow */
+    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
+
+    /* Dimensões */
+    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+
+    /* Margens */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    margin-top: 2rem; /* Margem no topo */
+}
+
+/* Estilos do Footer */
+.footer {
+    /* Posicionamento */
+    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Alinha à esquerda */
+
+    /* Dimensões */
+    width: 100%; /* Largura total */
+
+    /* Cores */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    
+    /* Espaçamento */
+    padding: 15px 20px; /* Espaçamento interno */
+}
+
+.footer p {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+#credits {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+#credits a {
+    color: var(--secondary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+#credits a:hover {
+    color: var(--accent-color); /* Muda a cor do link ao passar o mouse (variável não definida) */
+}
