@@ -136,6 +136,7 @@ div input:focus {
 
 /* Estilos da Main */
 main {
+    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
 
     /* Dimensões */
     max-width: 80rem; /* Largura máxima do conteúdo principal */
