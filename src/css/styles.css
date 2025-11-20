@@ -167,6 +167,28 @@ main header p {
 }
 
 /* Estilização da section cardConteiner */
+#card-conteiner {
+    display: flex;
+    flex-direction: column; /* Organiza as categorias em coluna */
+    gap: 32px; /* Espaço entre as seções de categoria */
+}
+
+/* Estilos para o título de cada categoria */
+.categoria-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Space Mono", monospace;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+/* Contêiner para os cards de uma categoria */
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px; /* Espaço entre os cards */
+}
 
 img {
     width: 300px;
