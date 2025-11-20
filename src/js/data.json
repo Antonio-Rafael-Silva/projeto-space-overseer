@@ -1,5 +1,5 @@
 {
-    "Planetas": [
+    "Planetas🌎": [
         {
             "nome": "Mercúrio",
             "descricao": "Mercúrio é o planeta mais próximo do Sol e o menor do sistema solar. É conhecido por sua superfície rochosa e crateras.",
@@ -49,18 +49,53 @@
             "link": "https://pt.wikipedia.org/wiki/Netuno"
         }
     ],
-    "Galáxias": [
+    "Galáxias🌌": [
+        {
+            "nome": "Via Láctea",
+            "descricao": "A Via Láctea é uma galáxia espiral, da qual o Sistema Solar faz parte. Vista do céu noturno, ela aparece como uma faixa esbranquiçada de luz.",
+            "imagem": "src/img/via-lactea.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Via_L%C3%A1ctea"
+        },
         {
             "nome": "Andrômeda",
             "descricao": "A galáxia de Andrômeda é a galáxia espiral mais próxima da Via Láctea e está em rota de colisão conosco em cerca de 4,5 bilhões de anos.",
-            "imagem": "src/img/stardust-bg-desktop.jpg",
+            "imagem": "src/img/andromeda.jpg",
             "link": "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_de_Andr%C3%B4meda"
         },
         {
             "nome": "Galáxia do Triângulo",
             "descricao": "A terceira maior galáxia do Grupo Local, depois de Andrômeda e da Via Láctea. É uma galáxia espiral com intensa formação de estrelas.",
-            "imagem": "src/img/stardust-bg-desktop.jpg",
+            "imagem": "src/img/triangle-galaxy.jpg",
             "link": "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_do_Tri%C3%A2ngulo"
         }
+    ],
+    "Fenômenos Celestes ☄️": [
+        {
+            "nome": "Buraco Negro",
+            "descricao": "Buraco negro é um objeto astronômico denso e massivo cujo intenso campo gravitacional impede qualquer coisa de escapar, nem mesmo a luz.",
+            "imagem": "src/img/blackhole.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Buraco_negro"
+        },
+        {
+            "nome": "Supernova",
+            "descricao": "Uma supernova é uma explosão estelar poderosa e luminosa. Este evento ocorre durante os últimos estágios evolutivos de uma estrela massiva",
+            "imagem": "src/img/supernova.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Supernova"
+        },
+        {
+            "nome": "Nebulosa",
+            "descricao": "Na astronomia, uma nebulosa, também conhecida como nébula, é uma nuvem interestelar de poeira e gases.",
+            "imagem": "src/img/nebula.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Nebulosa"
+        },
+        {
+            "nome": "Quasar",
+            "descricao": "Um quasar é o núcleo de uma galáxia distante, extremamente brilhante, alimentado por um buraco negro supermassivo em seu centro",
+            "imagem": "src/img/quasar.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Quasar"
+
+        }
+
     ]
+
 }
