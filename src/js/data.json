@@ -1,0 +1,53 @@
+[
+    {
+        "nome": "Mercúrio",
+        "descricao": "Mercúrio é o planeta mais próximo do Sol e o menor do sistema solar. É conhecido por sua superfície rochosa e crateras.",
+        "imagem": "src/img/mercury.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
+    },
+    {
+        "nome": "Vênus",
+        "descricao": "Vênus é o segundo planeta a partir do Sol e é conhecido por sua atmosfera densa e quente, composta principalmente de dióxido de carbono.",
+        "imagem": "src/img/venus.jpg",
+        "link": "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)"
+    },
+    {
+        "nome": "Terra",
+        "descricao": "Nosso planeta, o único conhecido a abrigar vida. Possui uma diversidade de ecossistemas e uma atmosfera rica em oxigênio.",
+        "imagem": "src/img/earth.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Terra"
+    },
+    {
+        "nome": "Marte",
+        "descricao": "Conhecido como o 'Planeta Vermelho' devido à sua superfície rica em óxido de ferro. É um deserto frio com calotas polares.",
+        "imagem": "src/img/marth.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Marte_(planeta)"
+    },
+    {
+        "nome": "Júpiter",
+        "descricao": "O maior planeta do Sistema Solar, um gigante gasoso com uma atmosfera turbulenta e a famosa Grande Mancha Vermelha.",
+        "imagem": "src/img/jupiter.jpg",
+        "link": "https://pt.wikipedia.org/wiki/J%C3%BApiter_(planeta)"
+    },
+    {
+        "nome": "Saturno",
+        "descricao": "Famoso por seus impressionantes anéis, compostos principalmente de partículas de gelo. É outro gigante gasoso.",
+        "imagem": "src/img/sapturn.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Saturno_(planeta)"
+    },
+    {
+        "nome": "Urano",
+        "descricao": "Um gigante de gelo com uma inclinação axial única, fazendo-o girar 'de lado'. Possui uma atmosfera fria e anéis tênues.",
+        "imagem": "src/img/uranus.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Urano_(planeta)"
+    },
+    {
+        "nome": "Netuno",
+        "descricao": "O planeta mais distante do Sol, um gigante de gelo escuro, frio e ventoso, com as velocidades de vento mais altas do sistema solar.",
+        "imagem": "src/img/neptune.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Netuno"
+    }
+]
+
+
+
