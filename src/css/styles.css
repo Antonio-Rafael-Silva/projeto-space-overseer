@@ -144,7 +144,6 @@ main {
 
     /* Margens */
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
-    margin-top: 2rem; /* Margem no topo */
 }
 
 main header {
@@ -220,6 +219,8 @@ article h2 {
 article p {
     text-align: justify;
     padding: 0 16px;
+
+    height: 80px;
 }
 
 article a {
@@ -233,6 +234,16 @@ article a {
     text-align: center;
     color: var(--secondary-color);
     padding: 0 16px;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+article a:hover {
+    transform: scale(1.04);
+}
+
+article a:active {
+    transform: scale(0.9);
 }
 
 
