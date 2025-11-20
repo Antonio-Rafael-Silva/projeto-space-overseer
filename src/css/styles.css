@@ -11,7 +11,7 @@
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
     --bg-image: url('../img/stardust-bg-desktop.jpg'); /* Cor de fundo (cinza escuro) */
-    --bg-color: rgba(22, 24, 64, 0.5); /* Cor de fundo alternativa com 80% de opacidade */
+    --bg-color: rgba(22, 24, 64, 0.5); /* Cor de fundo alternativa com 50% de opacidade */
 }
 
 /* Estilos do Body */
@@ -164,6 +164,49 @@ main header p {
     max-width: 600px; /* Largura máxima */
     margin-top: 0.5rem; /* Margem superior */
 }
+
+/* Estilização da section cardConteiner */
+
+img {
+    width: 300px;
+    height: 275px;
+    
+    border-radius: 16px;
+
+    display: block;
+    margin: 8px auto 0;
+}
+
+article {
+    padding: 8px;
+
+    max-width: 350px;
+    width: 100%;
+    background-color: rgba(22, 24, 64, 0.8);
+
+    border: 2px solid rgba(22, 24, 64, 0.8);
+    border-radius: 16px;
+
+}
+
+article h2 {
+    text-align: center;
+
+}
+
+article p {
+    text-align: justify;
+    padding: 0 16px;
+}
+
+article a {
+    display: block;
+
+    text-align: justify;
+    padding: 0 16px;
+}
+
+
 
 
 /* Estilos do Footer */
