@@ -224,8 +224,14 @@ article p {
 
 article a {
     display: block;
+    text-decoration: none;
 
-    text-align: justify;
+    width: 100%;
+    background-color: rgba(49, 35, 140, 0.8);
+    border-radius: 8px;
+
+    text-align: center;
+    color: var(--secondary-color);
     padding: 0 16px;
 }
 
