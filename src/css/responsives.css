@@ -49,8 +49,12 @@
     }
 
     .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
+        display: block; /* Oculta o rodapé */
+        height: 150px;
+        background-image: url('/src/img/stardust-bg-desktop.jpg');
+        z-index: 10;
     }
+    
 
     button { /* Estilos para o botão em telas muito pequenas */
         margin-top: 1rem; /* Adiciona margem no topo */
