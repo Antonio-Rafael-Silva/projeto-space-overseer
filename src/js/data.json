@@ -90,14 +90,14 @@
             "nome": "Galáxia do Cigarro (Messier 82)",
             "descricao": "Uma galáxia starburst, experimentando uma intensa taxa de formação estelar devido à interação gravitacional com sua vizinha M81.",
             "composicao": "Estrelas jovens e gás ionizado em rápida expansão.",
-            "imagem": "/src/img/galaxies/messier82.jpg",
+            "imagem": "src/img/galaxies/messier82.jpg",
             "link": "https://pt.wikipedia.org/wiki/Messier_82"
         },
         {
             "nome": "NGC 1300",
             "descricao": "Uma galáxia espiral barrada com uma estrutura espiral quase perfeita, localizada no Aglomerado de Eridanus.",
             "composicao": "Estrelas, gás interestelar e um proeminente bojo central.",
-            "imagem": "/src/img/galaxies/ngc1300.jpg",
+            "imagem": "src/img/galaxies/ngc1300.jpg",
             "link": "https://pt.wikipedia.org/wiki/NGC_1300"
         }
     ],
