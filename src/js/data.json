@@ -136,28 +136,28 @@
             "nome": "Sirius A",
             "descricao": "Também conhecida como a Estrela do Cão, é a estrela mais brilhante vista no céu noturno, localizada na constelação de Cão Maior.",
             "composicao": "Hidrogênio, Hélio e traços de elementos mais pesados (metalicidade alta).",
-            "imagem": "/src/img/stars/sirius-a.jpg",
+            "imagem": "src/img/stars/sirius-a.jpg",
             "link": "https://pt.wikipedia.org/wiki/Sirius"
         },
         {
             "nome": "Rígel",
             "descricao": "Uma supergigante azul-branca, a estrela mais brilhante da constelação de Orion e uma das mais luminosas na nossa vizinhança galáctica.",
             "composicao": "Hidrogênio e Hélio, com intensa fusão nuclear.",
-            "imagem": "/src/img/stars/rigel.jpg",
+            "imagem": "src/img/stars/rigel.jpg",
             "link": "https://pt.wikipedia.org/wiki/R%C3%ADgel"
         },
         {
             "nome": "Proxima Centauri",
             "descricao": "Uma anã vermelha de baixa massa e a estrela mais próxima do nosso Sol, orbitada por pelo menos um exoplaneta potencialmente rochoso.",
             "composicao": "Hidrogênio e Hélio em fusão lenta.",
-            "imagem": "/src/img/stars/proxima-centauri.jpg",
+            "imagem": "src/img/stars/proxima-centauri.jpg",
             "link": "https://pt.wikipedia.org/wiki/Proxima_Centauri"
         },
         {
             "nome": "Betelgeuse",
             "descricao": "Uma supergigante vermelha na constelação de Orion, uma das maiores estrelas conhecidas e candidata a explodir em uma supernova em um futuro astronômico próximo.",
             "composicao": "Hélio, Carbono, Oxigênio e gases estelares expandidos.",
-            "imagem": "/src/img/stars/betelgeuse.jpg",
+            "imagem": "src/img/stars/betelgeuse.jpg",
             "link": "https://pt.wikipedia.org/wiki/Betelgeuse"
         }
     ],
@@ -166,21 +166,21 @@
             "nome": "Kepler-186f",
             "descricao": "O primeiro exoplaneta de tamanho terrestre confirmado que orbita dentro da zona habitável de sua estrela anã vermelha.",
             "composicao": "Rocha e possivelmente gelo ou água líquida na superfície.",
-            "imagem": "/src/img/exoplanets-and-moons/kepler-186f.jpg",
+            "imagem": "src/img/exoplanets-and-moons/kepler-186f.jpg",
             "link": "https://pt.wikipedia.org/wiki/Kepler-186f"
         },
         {
             "nome": "Titã",
             "descricao": "A maior lua de Saturno e a única lua conhecida no Sistema Solar com uma atmosfera densa e corpos líquidos estáveis em sua superfície, compostos por metano.",
             "composicao": "Gelo de água, rocha, metano e nitrogênio atmosférico.",
-            "imagem": "/src/img/exoplanets-and-moons/titan.jpg",
+            "imagem": "src/img/exoplanets-and-moons/titan.jpg",
             "link": "https://pt.wikipedia.org/wiki/Tit%C3%A3_(sat%C3%A9lite)"
         },
         {
             "nome": "Enceladus",
             "descricao": "Uma lua de Saturno famosa por seus grandes jatos de vapor d'água e partículas de gelo, indicando a presença de um oceano líquido subterrâneo.",
             "composicao": "Gelo de água, silicatos e compostos orgânicos.",
-            "imagem": "/src/img/exoplanets-and-moons/enceladus.jpg",
+            "imagem": "src/img/exoplanets-and-moons/enceladus.jpg",
             "link": "https://pt.wikipedia.org/wiki/Enc%C3%A9lado_(sat%C3%A9lite)"
         }
     ],
@@ -205,14 +205,14 @@
             "nome": "Muralha de Sloan",
             "descricao": "Uma das maiores estruturas conhecidas de galáxias no universo, formando um imenso filamento.",
             "composicao": "Milhões de galáxias e matéria escura.",
-            "imagem": "/src/img/cosmic-structures/sloan-great-wall.jpg",
+            "imagem": "src/img/cosmic-structures/sloan-great-wall.jpg",
             "link": "https://pt.wikipedia.org/wiki/Grande_Muralha_Sloan"
         },
         {
             "nome": "Boötes Void (Vazio de Boötes)",
             "descricao": "Uma região vasta e esférica do espaço, conhecida como 'supervazio', que contém extremamente poucas galáxias em comparação com o resto do universo.",
             "composicao": "Matéria escura e gás de hidrogênio de baixa densidade.",
-            "imagem": "/src/img/cosmic-structures/bootes-void.jpg",
+            "imagem": "src/img/cosmic-structures/bootes-void.jpg",
             "link": "https://pt.wikipedia.org/wiki/Vazio_de_Bo%C3%B6tes"
         }
     ]
