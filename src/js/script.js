@@ -76,6 +76,7 @@ function iniciarBusca() {
     } else {
         searchInput.placeholder = "Digite um item...";
         renderizarItensFiltrados(filteredItems);
+        searchInput.value = "";
     }
 }
 
