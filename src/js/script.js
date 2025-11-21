@@ -42,6 +42,7 @@ function renderizarCategorias() {
                     <img src="${item.imagem}" alt="Imagem de ${item.nome}">
                     <h2>${item.nome}</h2>
                     <p>${item.descricao}</p>
+                    <p>Composição: ${item.composicao}</p>
                     <a href="${item.link}" target="_blank">Saiba mais</a>
                 `;
                 itemsContainer.appendChild(article);

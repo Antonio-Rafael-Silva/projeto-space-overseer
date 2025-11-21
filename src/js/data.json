@@ -3,49 +3,57 @@
         {
             "nome": "Mercúrio",
             "descricao": "Mercúrio é o planeta mais próximo do Sol e o menor do sistema solar. É conhecido por sua superfície rochosa e crateras.",
-            "imagem": "src/img/mercury.jpg",
+            "imagem": "src/img/planets/mercury.jpg",
+            "composicao": "Rochoso, com núcleo de ferro.",
             "link": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
         },
         {
             "nome": "Vênus",
             "descricao": "Vênus é o segundo planeta a partir do Sol e é conhecido por sua atmosfera densa e quente, composta principalmente de dióxido de carbono.",
-            "imagem": "src/img/venus.jpg",
+            "imagem": "src/img/planets/venus.jpg",
+            "composicao": "Rochoso, com atmosfera densa de dióxido de carbono.",
             "link": "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)"
         },
         {
             "nome": "Terra",
             "descricao": "Nosso planeta, o único conhecido a abrigar vida. Possui uma diversidade de ecossistemas e uma atmosfera rica em oxigênio.",
-            "imagem": "src/img/earth.jpg",
+            "imagem": "src/img/planets/earth.jpg",
+            "composicao": "Rochoso, com núcleo de ferro e níquel, e água líquida na superfície.",
             "link": "https://pt.wikipedia.org/wiki/Terra"
         },
         {
             "nome": "Marte",
             "descricao": "Conhecido como o 'Planeta Vermelho' devido à sua superfície rica em óxido de ferro. É um deserto frio com calotas polares.",
-            "imagem": "src/img/marth.jpg",
+            "imagem": "src/img/planets/mars.jpg",
+            "composicao": "Rochoso, com óxido de ferro na superfície.",
             "link": "https://pt.wikipedia.org/wiki/Marte_(planeta)"
         },
         {
             "nome": "Júpiter",
             "descricao": "O maior planeta do Sistema Solar, um gigante gasoso com uma atmosfera turbulenta e a famosa Grande Mancha Vermelha.",
-            "imagem": "src/img/jupiter.jpg",
+            "imagem": "src/img/planets/jupiter.jpg",
+            "composicao": "Gasoso, principalmente hidrogênio e hélio.",
             "link": "https://pt.wikipedia.org/wiki/J%C3%BApiter_(planeta)"
         },
         {
             "nome": "Saturno",
             "descricao": "Famoso por seus impressionantes anéis, compostos principalmente de partículas de gelo. É outro gigante gasoso.",
-            "imagem": "src/img/sapturn.jpg",
+            "imagem": "src/img/planets/sapturn.jpg",
+            "composicao": "Gasoso, com anéis de gelo e rocha.",
             "link": "https://pt.wikipedia.org/wiki/Saturno_(planeta)"
         },
         {
             "nome": "Urano",
             "descricao": "Um gigante de gelo com uma inclinação axial única, fazendo-o girar 'de lado'. Possui uma atmosfera fria e anéis tênues.",
-            "imagem": "src/img/uranus.jpg",
+            "imagem": "src/img/planets/uranus.jpg",
+            "composicao": "Gigante de gelo, com hidrogênio, hélio e metano.",
             "link": "https://pt.wikipedia.org/wiki/Urano_(planeta)"
         },
         {
             "nome": "Netuno",
             "descricao": "O planeta mais distante do Sol, um gigante de gelo escuro, frio e ventoso, com as velocidades de vento mais altas do sistema solar.",
-            "imagem": "src/img/neptune.jpg",
+            "imagem": "src/img/planets/neptune.jpg",
+            "composicao": "Gigante de gelo, com hidrogênio, hélio e metano.",
             "link": "https://pt.wikipedia.org/wiki/Netuno"
         }
     ],
@@ -53,49 +61,159 @@
         {
             "nome": "Via Láctea",
             "descricao": "A Via Láctea é uma galáxia espiral, da qual o Sistema Solar faz parte. Vista do céu noturno, ela aparece como uma faixa esbranquiçada de luz.",
-            "imagem": "src/img/via-lactea.jpg",
+            "imagem": "src/img/galaxies/via-lactea.jpg",
+            "composicao": "Estrelas, gás, poeira e matéria escura.",
             "link": "https://pt.wikipedia.org/wiki/Via_L%C3%A1ctea"
         },
         {
             "nome": "Andrômeda",
             "descricao": "A galáxia de Andrômeda é a galáxia espiral mais próxima da Via Láctea e está em rota de colisão conosco em cerca de 4,5 bilhões de anos.",
-            "imagem": "src/img/andromeda.jpg",
+            "imagem": "src/img/galaxies/andromeda.jpg",
+            "composicao": "Estrelas, gás, poeira e matéria escura.",
             "link": "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_de_Andr%C3%B4meda"
         },
         {
             "nome": "Galáxia do Triângulo",
             "descricao": "A terceira maior galáxia do Grupo Local, depois de Andrômeda e da Via Láctea. É uma galáxia espiral com intensa formação de estrelas.",
-            "imagem": "src/img/triangle-galaxy.jpg",
+            "imagem": "src/img/galaxies/triangle-galaxy.jpg",
+            "composicao": "Estrelas, gás e poeira.",
             "link": "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_do_Tri%C3%A2ngulo"
+        },
+        {
+            "nome": "Grande Nuvem de Magalhães (GNM)",
+            "descricao": "Uma galáxia anã irregular e satélite da Via Láctea, em interação gravitacional com a Pequena Nuvem de Magalhães.",
+            "composicao": "Estrelas, gás hidrogênio e poeira.",
+            "imagem": "src/img/galaxies/large-magellanic-cloud.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Grande_Nuvem_de_Magalh%C3%A3es"
+        },
+        {
+            "nome": "Galáxia do Cigarro (Messier 82)",
+            "descricao": "Uma galáxia starburst, experimentando uma intensa taxa de formação estelar devido à interação gravitacional com sua vizinha M81.",
+            "composicao": "Estrelas jovens e gás ionizado em rápida expansão.",
+            "imagem": "/src/img/galaxies/messier82.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Messier_82"
+        },
+        {
+            "nome": "NGC 1300",
+            "descricao": "Uma galáxia espiral barrada com uma estrutura espiral quase perfeita, localizada no Aglomerado de Eridanus.",
+            "composicao": "Estrelas, gás interestelar e um proeminente bojo central.",
+            "imagem": "/src/img/galaxies/ngc1300.jpg",
+            "link": "https://pt.wikipedia.org/wiki/NGC_1300"
         }
     ],
-    "Fenômenos Celestes ☄️": [
+    "Fenômenos Celestes☄️": [
         {
             "nome": "Buraco Negro",
             "descricao": "Buraco negro é um objeto astronômico denso e massivo cujo intenso campo gravitacional impede qualquer coisa de escapar, nem mesmo a luz.",
-            "imagem": "src/img/blackhole.jpg",
+            "imagem": "src/img/phenomena/blackhole.jpg",
+            "composicao": "Matéria densamente compactada, singularidade.",
             "link": "https://pt.wikipedia.org/wiki/Buraco_negro"
         },
         {
             "nome": "Supernova",
             "descricao": "Uma supernova é uma explosão estelar poderosa e luminosa. Este evento ocorre durante os últimos estágios evolutivos de uma estrela massiva",
-            "imagem": "src/img/supernova.jpg",
+            "imagem": "src/img/phenomena/supernova.jpg",
+            "composicao": "Restos de uma explosão estelar.",
             "link": "https://pt.wikipedia.org/wiki/Supernova"
         },
         {
             "nome": "Nebulosa",
             "descricao": "Na astronomia, uma nebulosa, também conhecida como nébula, é uma nuvem interestelar de poeira e gases.",
-            "imagem": "src/img/nebula.jpg",
+            "imagem": "src/img/phenomena/nebula.jpg",
+            "composicao": "Nuvem de gás (hidrogênio, hélio) e poeira.",
             "link": "https://pt.wikipedia.org/wiki/Nebulosa"
         },
         {
             "nome": "Quasar",
             "descricao": "Um quasar é o núcleo de uma galáxia distante, extremamente brilhante, alimentado por um buraco negro supermassivo em seu centro",
-            "imagem": "src/img/quasar.jpg",
+            "imagem": "src/img/phenomena/quasar.jpg",
+            "composicao": "Buraco negro supermassivo e disco de acreção.",
             "link": "https://pt.wikipedia.org/wiki/Quasar"
-
         }
-
+    ],
+    "Estrelas⭐": [
+        {
+            "nome": "Sirius A",
+            "descricao": "Também conhecida como a Estrela do Cão, é a estrela mais brilhante vista no céu noturno, localizada na constelação de Cão Maior.",
+            "composicao": "Hidrogênio, Hélio e traços de elementos mais pesados (metalicidade alta).",
+            "imagem": "/src/img/stars/sirius-a.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Sirius"
+        },
+        {
+            "nome": "Rígel",
+            "descricao": "Uma supergigante azul-branca, a estrela mais brilhante da constelação de Orion e uma das mais luminosas na nossa vizinhança galáctica.",
+            "composicao": "Hidrogênio e Hélio, com intensa fusão nuclear.",
+            "imagem": "/src/img/stars/rigel.jpg",
+            "link": "https://pt.wikipedia.org/wiki/R%C3%ADgel"
+        },
+        {
+            "nome": "Proxima Centauri",
+            "descricao": "Uma anã vermelha de baixa massa e a estrela mais próxima do nosso Sol, orbitada por pelo menos um exoplaneta potencialmente rochoso.",
+            "composicao": "Hidrogênio e Hélio em fusão lenta.",
+            "imagem": "/src/img/stars/proxima-centauri.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Proxima_Centauri"
+        },
+        {
+            "nome": "Betelgeuse",
+            "descricao": "Uma supergigante vermelha na constelação de Orion, uma das maiores estrelas conhecidas e candidata a explodir em uma supernova em um futuro astronômico próximo.",
+            "composicao": "Hélio, Carbono, Oxigênio e gases estelares expandidos.",
+            "imagem": "/src/img/stars/betelgeuse.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Betelgeuse"
+        }
+    ],
+    "Exoplanetas e Luas🪐": [
+        {
+            "nome": "Kepler-186f",
+            "descricao": "O primeiro exoplaneta de tamanho terrestre confirmado que orbita dentro da zona habitável de sua estrela anã vermelha.",
+            "composicao": "Rocha e possivelmente gelo ou água líquida na superfície.",
+            "imagem": "/src/img/exoplanets-and-moons/kepler-186f.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Kepler-186f"
+        },
+        {
+            "nome": "Titã",
+            "descricao": "A maior lua de Saturno e a única lua conhecida no Sistema Solar com uma atmosfera densa e corpos líquidos estáveis em sua superfície, compostos por metano.",
+            "composicao": "Gelo de água, rocha, metano e nitrogênio atmosférico.",
+            "imagem": "/src/img/exoplanets-and-moons/titan.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Tit%C3%A3_(sat%C3%A9lite)"
+        },
+        {
+            "nome": "Enceladus",
+            "descricao": "Uma lua de Saturno famosa por seus grandes jatos de vapor d'água e partículas de gelo, indicando a presença de um oceano líquido subterrâneo.",
+            "composicao": "Gelo de água, silicatos e compostos orgânicos.",
+            "imagem": "/src/img/exoplanets-and-moons/enceladus.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Enc%C3%A9lado_(sat%C3%A9lite)"
+        }
+    ],
+    "Corpos Menores e Aglomerados☄️": [
+        {
+            "nome": "Ceres",
+            "descricao": "O maior objeto no cinturão de asteroides principal, classificado como planeta anão, e suspeito de abrigar água subterrânea.",
+            "composicao": "Rocha, gelo de água e minerais hidratados.",
+            "imagem": "src/img/objects/ceres.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Ceres_(planeta_an%C3%A3o)"
+        },
+        {
+            "nome": "Messier 13 (M13)",
+            "descricao": "O Grande Aglomerado Globular em Hércules, um denso agrupamento de centenas de milhares de estrelas ligadas pela gravidade.",
+            "composicao": "Estrelas antigas e gás de hidrogênio e hélio remanescente.",
+            "imagem": "src/img/objects/messier13.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Grande_Aglomerado_Globular_de_H%C3%A9rcules"
+        }
+    ],
+    "Estruturas Cósmicas Gigantes🌠": [
+        {
+            "nome": "Muralha de Sloan",
+            "descricao": "Uma das maiores estruturas conhecidas de galáxias no universo, formando um imenso filamento.",
+            "composicao": "Milhões de galáxias e matéria escura.",
+            "imagem": "/src/img/cosmic-structures/sloan-great-wall.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Grande_Muralha_Sloan"
+        },
+        {
+            "nome": "Boötes Void (Vazio de Boötes)",
+            "descricao": "Uma região vasta e esférica do espaço, conhecida como 'supervazio', que contém extremamente poucas galáxias em comparação com o resto do universo.",
+            "composicao": "Matéria escura e gás de hidrogênio de baixa densidade.",
+            "imagem": "/src/img/cosmic-structures/bootes-void.jpg",
+            "link": "https://pt.wikipedia.org/wiki/Vazio_de_Bo%C3%B6tes"
+        }
     ]
-
 }
